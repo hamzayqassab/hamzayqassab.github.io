@@ -1,0 +1,36 @@
+div {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 660px;
+  margin: 70px auto;
+  border-right: 1px double gray;
+  border-left: 1px double gray;
+  border-bottom: 1px double gray;
+  box-shadow: 1px 1px 10px silver;
+}
+div input {
+  display: block;
+  width: 240px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+div img {
+  margin-top: 25px;
+}
+div input[type="submit"] {
+  width: 256px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+footer {
+  padding-top: 13px;
+  border-top: 3px solid royalblue;
+}
+a {
+  text-decoration-line: none;
+  color: grey;
+}
